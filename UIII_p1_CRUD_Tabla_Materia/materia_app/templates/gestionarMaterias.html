@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+
+{% block cuerpo %}
+<div class="row"><!-- la fila-->
+<div class="col-sm-12 col-md-4 col-lg-4 col-xl-4"><!-- la Columna izquierda-->
+
+    <h1>Mama</h1>
+    </div><!-- la Columna izquierda-->
+
+    <div class "col-sm-12 col-md-8 col-lg-8 col-xl-8"><!-- la Columna derecha-->
+    <h1>papa</h1>
+    <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">First</th>
+            <th scope="col">Last</th>
+            <th scope="col">Handle</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>@fat</td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td colspan="2">Larry the Bird</td>
+            <td>@twitter</td>
+          </tr>
+        </tbody>
+      </table>
+</div><!-- la Columna derecha-->
+</div><!-- la fila-->
+{% endblock %}
